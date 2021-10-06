@@ -1,0 +1,55 @@
+Data Sources: 
+Fang Fu-An (1930). Shanghai Labor, Chinese Economic Journal VII, 853--885, 989--1012 (in my office)
+Tao, Menhe (1928). Livelihood in Peking: An Analysis of the Budgets of Sixty Families, China Foundation for the Promotion of Education and Culture (in our university library)
+
+		//comments
+Parameters:	//total parameters:44
+		//Shanghai Data sets are measured in mexican dollars, study taken in 1930 
+		//Peiking Data sets are measured in coppers, study taken in 1927
+		//"." means that the values are unreported or zero (Stata default for unreported values)
+
+Factory                 //0=YangtzePoo Factories 1=Shanghai Commercial Press 2=Shanghai Post Office 3=Peiping Teachers and Handicraftworkers(LK Tao Study)
+Husband                 //Income of Husband
+Family			//Family Index
+Wife			//Income of Wife
+Son1			//Income of Son 1
+Son2			//Income of Son 2
+Son3			//Income of Son 3
+Son4			//Income of Son 4
+Brother			//Income of Brother 
+Daughter1		//Income of Daughter 1
+Daughter2		//Income of Daughter 2
+Children(totalinc)	//total income of all children combined
+DIL1			//income of daughter in law 1
+DIL2			//income of daughter in law 2
+DIL3			//income of daughter in law 3
+Others			//Other family members with income			
+Others2			//parameter specifically for Yangtzepoo data, sometimes 2 data values for "others" were given
+TotalEarning		//Total Earning of family members combined
+Borrow			//Income from borrowing
+Pawn			//Income from pawning
+OtherInc		//Other sources of Income
+TotalInc		//TotalIncome
+Food			//Food Expenditures
+HouseRent		//Rent Expenditures
+Clothing		//Clothing Expenditures
+FuelLight		//Fuel and Light Expenditures
+Transport		//Transport Expenditures
+Medical			//Medical Expenditures
+TeaTobac		//Tea and Tobacco Expenditures
+Amusement		//Amusement Expenditures
+SocialExp		//Social Expenses
+Funeral			//Funeral Expenditures
+Edu			//Education Expenditures
+Marriage		//Marriage Expenditures
+Rel			//Religious Expenses
+Int			//Interest
+SendHome		//Money
+UnionFee		//Fee paid to unions
+OtherExp		//other sources of expenditure
+TotalExpenditures	//Total Expenditures
+sonswithinc		//number of sons with income
+daughterswithinc	//number of daughters with income
+DILwithinc		//number of Daughter in Laws with income
+TotalFamilyMembers	//Total number of family members
+
